@@ -26,7 +26,6 @@ Work through the notebooks in order:
 | 0 | [0_langgraph_fundamentals.ipynb](0_langgraph_fundamentals.ipynb) | Setup, state/nodes/edges, conditional routing, tools, ReAct loop, persistence, human-in-the-loop, SAP BTP intro |
 | 1 | [1_langgraph_agents_sap_btp.ipynb](1_langgraph_agents_sap_btp.ipynb) | Multi-agent supervisor, subgraphs, parallel execution (Send API), advanced state, HANA RAG, long-term memory, reflection loops, Langfuse observability |
 | 2 | [2_langgraph_deployment_sap_btp.ipynb](2_langgraph_deployment_sap_btp.ipynb) | Testing (pytest), FastAPI serving, SSE streaming, AI Core credentials, SAP workflow tools, Cloud Foundry deployment, MCP tools, Joule Studio |
-| — | [databricks_interview_prep.ipynb](databricks_interview_prep.ipynb) | PySpark, Delta Lake, medallion architecture, structured streaming, Unity Catalog *(standalone)* |
 
 ---
 
@@ -96,7 +95,6 @@ langgraph_agents_sap_btp/
 ├── 0_langgraph_fundamentals.ipynb      # Start here
 ├── 1_langgraph_agents_sap_btp.ipynb    # Intermediate patterns
 ├── 2_langgraph_deployment_sap_btp.ipynb # Production deployment
-├── databricks_interview_prep.ipynb     # Databricks/PySpark prep
 ├── main.py                             # Minimal entry point
 ├── pyproject.toml                      # Project metadata & dependencies
 ├── uv.lock                             # Locked dependency versions
